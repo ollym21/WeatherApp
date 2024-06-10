@@ -1,5 +1,6 @@
 package com.github.weatherapp
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -33,13 +34,14 @@ class Homescreen: AppCompatActivity() {
             TODO("Not yet implemented")
         }
 
+        @SuppressLint("SuspiciousIndentation")
         fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             enableEdgeToEdge()
 
 
             // implement a or loop to calculate temp average
-            for averagetemp {
+            //for averagetemp {
                 "${11+14+7+10+15+15+16+24+24+16+16+23+26+31/14} C"
 
                 textView.text
@@ -73,7 +75,7 @@ class Homescreen: AppCompatActivity() {
         }
 
     }
-}
+
 
 
 
